@@ -1,0 +1,202 @@
+/*
+Theme Name: Widget Blog
+Author: Elias
+Version: 0.9
+Description: My theme
+Text Domain: wibl
+*/
+
+/* ------------------------------------------------------
+
+Globals
+
+------------------------------------------------------ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+hr {
+    width: 130px;
+    height: 1px;
+    background: #333;
+    border: 0;
+    margin: 40px auto;
+    padding: 0;
+}
+
+a {
+    color: #333;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #777;
+    text-decoration: none;
+}
+
+
+ul,
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+body.custom-background {
+    background-size: cover;
+}
+
+
+
+/* ------------------------------------------------------
+
+Navbar
+
+------------------------------------------------------ */
+
+.navbar {
+    border-radius: 0;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-brand,
+.navbar-default .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-default, .navbar-nav li a:hover,
+.navbar-default, .navbar-nav li a:active,
+.navbar-default, .navbar-nav li a:focus {
+    color: #fff;
+}
+
+
+/* ------------------------------------------------------
+
+Front Page
+
+------------------------------------------------------ */
+
+.site-intro {
+    padding: 170px 0 200px 0;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.big-intro-text {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.big-intro-text p {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.site-content {
+    background: #fff;
+    padding-top: 70px;
+}
+
+/* ------------------------------------------------------
+
+Sections
+
+------------------------------------------------------ */
+
+.service, .service-content {
+    text-align: center;
+}
+
+.service .service-image {
+    height: 500px;
+    width: 100%;
+    margin: 50px 0 70px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.customers-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.customers-list li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+}
+
+.customers-list li img {
+    max-width: 150px;
+    max-height: 60px;
+}
+
+.customer-container {
+    background-color: #f8f8f8;
+    padding: 75px 0;
+}
+
+/* ------------------------------------------------------
+
+Footer
+
+------------------------------------------------------ */
+
+footer {
+    background: #2b3d51;
+    padding: 75px 0;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social {
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.facebook {
+    background-image: url('assets/images/facebook.png');
+}
+
+.linkedin {
+    background-image: url('assets/images/linkedin.png');
+}
+
+.instagram {
+    background-image: url('assets/images/instagram.png');
+}
